@@ -1,0 +1,182 @@
+{
+    "basics": {
+        "name": "Manuel Jiménez López",
+        "label": "Software Engineer expecializado en el desarrollo de aplicaciones con IA y Machine Learning",
+        "image": "/profile-photo.webp",
+        "summary": "Software Engineer expecializado en el desarrollo de aplicaciones con IA y Machine Learning. Tengo más de 6 años de experiencia en el sector IT, especialmente en el área de Supply Chain donde he ayudado a empresas de todo el mundo a optimizar sus procesos. Soy un apasionado de la tecnología y me encanta aprender cosas nuevas. Actualmente estoy trabajando en Microsoft donde lidero el desarrollo de un producto que hace uso de las últimas técnicas de Machine Learning en el área de Neural Language Processing.",
+        "website": "",
+        "email": "manueljl22@outlook.com",
+        "location": {
+            "currentcity": "Dublin",
+            "countryCode": "Ireland",
+            "originalcity": "Albacete",
+            "originalcountryCode": "España"
+        },
+        "profiles": [
+            {
+                "username": "manuelji",
+                "url": "https://www.linkedin.com/in/manuelji/",
+                "network": "LinkedIn"
+            },
+            {
+                "url": "https://github.com/Manuelji022",
+                "username": "Manuelji022",
+                "network": "github"
+            }
+        ]
+    },
+    "education": [
+        {
+            "endDate": "2017",
+            "startDate": "2020",
+            "area": "Project Management",
+            "studyType": "Master en",
+            "institution": "Universidad Politécnica de Valencia"
+        },
+        {
+            "endDate": "2015",
+            "startDate": "2016",
+            "area": "Business",
+            "studyType": "Bachelor in",
+            "institution": "Univerza V Mariboru, Slovenia"
+        },
+        {
+            "endDate": "2012",
+            "startDate": "2017",
+            "area": "Economía",
+            "studyType": "Grado en",
+            "institution": "Universidad de Castilla La Mancha"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Software Development",
+            "level": "Proficient",
+            "keywords": [
+            "Python"
+            ]
+        },
+        {
+            "name": "Web Development",
+            "level": "Beginner",
+            "keywords": [
+                "HTML",
+                "CSS",
+                "Astro"
+            ]
+        },
+        {
+            "name": "Machine Learning",
+            "level": "Beginner",
+            "keywords": [
+                "Tensorflow",
+                "Keras",
+                "PyTorch",
+                "Pandas / Numpy",
+                "Scikit-learn",
+                "Matplotlib / Seaborn"
+            ]
+        },
+        {
+            "name": "Frameworks",
+            "level": "Intermediate",
+            "keywords": [
+                "Semantic Kernel",
+                "Langchain"
+            ]
+        },
+        {
+            "name": "Databases",
+            "level": "Intermediate",
+            "keywords": [
+                "MySQL",
+                "MongoDB",
+                "SQL Server"
+            ]
+        },
+        {
+            "name": "DevOps",
+            "level": "Intermediate",
+            "keywords": [
+                "Microsoft Excel",
+                "Azure"
+            ]
+        },
+        {
+            "name": "Otros",
+            "level": "Intermediate",
+            "keywords": [
+                "SAP"
+            ]
+        }
+    ],
+    "work": [
+        {
+            "summary": "Lidero el desarrollo y diseño de un producto de IA que en base a la base de datos de SAP IBP sobre Cloud Supply Chain es capaz de responder a preguntas de los usuarios. El producto se basa en el uso de técnicas de Machine Learning para entender las preguntas y dar respuestas a las preguntas haciendo uso de NL2SQL para traducir las preguntas a SQL y crear queries para la base de datos.",
+            "name": "Microsoft",
+            "location": "Dublin",
+            "position": "Software Engineer",
+            "startDate": "2022-03-01",
+            "highlights": [
+                "Python",
+                "Semantic Kernel",
+                "Langchain",
+                "Pandas",
+                "Azure",
+                "Power BI"
+            ]
+        },
+        {
+            "summary": "Desarrollo e implementación de aplicaciones y soluciones para optimizar la cadena de suministro de los clientes. Uso de técnicas de Machine Learning para predecir la demanda y optimizar la cadena de suministro.",
+            "name": "Stratesys",
+            "locations": "Valencia",
+            "position": "Software Engineer",
+            "startDate": "2021-01-02",
+            "endDate": "2022-02-02",
+            "highlights": [
+                "SAP IBP",
+                "Scikit-learn",
+                "Linear Regression",
+                "Regression Trees"
+            ]
+        },
+        {
+            "summary": "Principal responsable a cargo de la solución de software para la gestión de la cadena de suministro de la empresa. Resolución de más de 1000 incidencias e implementación de multitud de mejoras de sistemas, destacando la mejora y automatización de procesos de forecasting e implementación de la solución de sincronización de datos entre sistemas que supuso un ahorro de más de 700 horas de trabajo y la reducción de errores en un 90%.",
+            "name": "Capgemini",
+            "locations": "Valencia",
+            "position": "Software Engineer",
+            "startDate": "2018-10-01",
+            "endDate": "2021-01-31",
+            "highlights": [
+                "SAP IBP",
+                "Excel"
+            ]
+        }
+    ],
+    "cursos": [
+        {
+            "name": "Applied Data Science and Deep Learning",
+            "institution": "MIT",
+            "startDate": "2023-04-01",
+            "endDate": "2023-08-31"
+        },
+        {
+            "name": "Machine Learning Bootcamp",
+            "institution": "The Bridge",
+            "startDate": "2020-11-01",
+            "endDate": "2021-08-31"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Microsoft Certified: Azure AI Fundamentals",
+            "authority": "Microsoft",
+            "issueDate": "2023-02-01"
+        },
+        {
+            "name": "Microsoft Certified: Azure Data Fundamentals",
+            "authority": "Microsoft",
+            "issueDate": "2023-03-01"
+        }
+    ]
+}
