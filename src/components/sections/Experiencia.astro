@@ -1,0 +1,85 @@
+---
+import { work } from "@cv"
+import Section from "@/components/Section.astro"
+
+
+---
+
+<Section title="Experiencia Laboral">
+    <ul>
+        {
+            work.map(
+                ({ summary, name, companyImage, location, position, startDate, endDate }) => {
+                    const startYear = new Date(startDate).getFullYear()
+                    const endYear =
+                    endDate != null ? new Date(endDate).getFullYear() : "Actualidad"
+                    const years = `${startYear} - ${endYear}`
+                    return (
+                        <li>
+                            <article>
+                                <header>
+                                    <img class="companyImage" src={companyImage} alt={name} />
+                                    <div>
+                                        <h3>{name}</h3>
+                                        <h4>{position}</h4>
+                                    </div>
+                                        <time>{years}</time>
+                                </header>
+                                <footer>
+                                    <p>{summary}</p>
+                                </footer>  
+                            </article>
+                        </li>
+                    )
+                }
+            )
+        }        
+    </ul>
+</Section>
+
+<style>
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    article h3 {
+        font-weight: 600;
+        margin-bottom: 0.2rem;
+    }
+
+    article h4 {
+        font-weight: 400;
+        margin-bottom: 0.2rem;
+    }
+
+    header {
+        display: flex;
+        align-items: flex-start;
+        gap: 2rem;
+        margin-bottom: 0.6rem;
+    }
+
+    time {
+        color: #555;
+        font-size: 0.9rem;
+        min-width: 102px;
+        margin-left: 20rem;
+
+    }
+
+
+    @media (max-width: 768px) {
+        time {
+            margin-left: 0;
+            margin-top: 0.6rem;
+        }
+    }
+
+    .companyImage {
+        width: 50px;
+        height: 50px;
+    }
+</style>
