@@ -26,20 +26,19 @@ const { currentcity, countryCode, originalcity, originalcountryCode } = location
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        gap: 1rem;
         background-color: #FFEA37;
-        
     }
 
     .info {
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
-        padding-right: 32px;
+        padding-right: 2rem;
     }
 
     h1 {
-        font-size: 2rem;
+        font-size: 3rem;
+        margin-top: 1rem;
         margin-left: 2rem;
         margin-bottom: 1rem;
     }
@@ -49,12 +48,15 @@ const { currentcity, countryCode, originalcity, originalcountryCode } = location
         font-weight: 400;
         text-wrap: balance;
         margin-left: 2rem;
+        margin-bottom: 1rem;
     }
 
     img {
         aspect-ratio: 1 / 1;
         object-fit: cover;
-        width: 200px;
+        width: 100%;
+        max-width: 300px;
+        height: auto;
         border-radius: 50%;
         border: 1px solid #000;
     }
@@ -64,4 +66,28 @@ const { currentcity, countryCode, originalcity, originalcountryCode } = location
         justify-content: center;
         align-items: center;
     }
+    
+    @media (width <= 700px) {
+        .container {
+            flex-direction: column-reverse;
+        }
+        .info{
+            justify-content: center;
+            align-items: center;
+            padding-right: 0;
+            text-align: center ;
+        }
+
+        figure {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+        }
+        img {
+            max-width: 180px;
+        }
+
+    }
+
 </style>
