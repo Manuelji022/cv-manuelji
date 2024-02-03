@@ -1,9 +1,9 @@
 {
     "basics": {
         "name": "Manuel Jiménez López",
-        "label": "Software Engineer expecializado en el desarrollo de aplicaciones con IA y Machine Learning",
+        "label": "Software Engineer especializado en el desarrollo de aplicaciones con IA y Machine Learning",
         "image": "/profile-photo.webp",
-        "summary": "Software Engineer expecializado en el desarrollo de aplicaciones con IA y Machine Learning. Tengo más de 6 años de experiencia en el sector IT, especialmente en el área de Supply Chain donde he ayudado a empresas de todo el mundo a optimizar sus procesos. Soy un apasionado de la tecnología y me encanta aprender cosas nuevas. Actualmente estoy trabajando en Microsoft donde lidero el desarrollo de un producto que hace uso de las últimas técnicas de Machine Learning en el área de Neural Language Processing.",
+        "summary": "Software Engineer especializado en el desarrollo de aplicaciones con IA y Machine Learning. Tengo más de 6 años de experiencia en el sector IT, especialmente en el área de Supply Chain donde he ayudado a empresas de todo el mundo a optimizar sus procesos. Soy un apasionado de la tecnología y me encanta aprender cosas nuevas. Actualmente estoy trabajando en Microsoft donde lidero el desarrollo de un producto que hace uso de las últimas técnicas de Machine Learning en el área de Neural Language Processing.",
         "website": "",
         "email": "manueljl22@outlook.com",
         "location": {
@@ -114,6 +114,7 @@
         {
             "summary": "Lidero el desarrollo y diseño de un producto de IA que en base a la base de datos de SAP IBP sobre Cloud Supply Chain es capaz de responder a preguntas de los usuarios. El producto se basa en el uso de técnicas de Machine Learning para entender las preguntas y dar respuestas a las preguntas haciendo uso de NL2SQL para traducir las preguntas a SQL y crear queries para la base de datos.",
             "name": "Microsoft",
+            "companyImage": "/microsoft.webp",
             "location": "Dublin",
             "position": "Software Engineer",
             "startDate": "2022-03-01",
@@ -129,6 +130,7 @@
         {
             "summary": "Desarrollo e implementación de aplicaciones y soluciones para optimizar la cadena de suministro de los clientes. Uso de técnicas de Machine Learning para predecir la demanda y optimizar la cadena de suministro.",
             "name": "Stratesys",
+            "companyImage": "/stratesys.webp",
             "locations": "Valencia",
             "position": "Software Engineer",
             "startDate": "2021-01-02",
@@ -143,6 +145,7 @@
         {
             "summary": "Principal responsable a cargo de la solución de software para la gestión de la cadena de suministro de la empresa. Resolución de más de 1000 incidencias e implementación de multitud de mejoras de sistemas, destacando la mejora y automatización de procesos de forecasting e implementación de la solución de sincronización de datos entre sistemas que supuso un ahorro de más de 700 horas de trabajo y la reducción de errores en un 90%.",
             "name": "Capgemini",
+            "companyImage": "/capgemini.webp",
             "locations": "Valencia",
             "position": "Software Engineer",
             "startDate": "2018-10-01",
