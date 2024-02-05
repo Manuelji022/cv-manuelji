@@ -1,10 +1,72 @@
 ---
 import Section from '../Section.astro';
-
+import LinkedIn from '@/icons/LinkedIn.astro';
+import GitHub from '@/icons/GitHub.astro';
+import Mail from '@/icons/Mail.astro';
 import { basics } from "@cv"
-const { summary } = basics;
+
+const { summary,profiles, email, name } = basics;
+const SOCIAL_ICONS: Record<string, any> = {
+    GitHub,
+    LinkedIn,
+}
+
 ---
 
 <Section title="Sobre mí">
     <p>{summary}</p>
+    <footer>
+        <a
+            href={`mailto:${email}`}
+            title={`Enviar un correo a ${name} al correo ${email}`}
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            <Mail />
+        </a>
+        {
+            profiles.map(({ network, url, username }) => {
+                const Icon = SOCIAL_ICONS[network]
+
+                return (
+                    <a
+                        href={url}
+                        title={`Visitar el perfil de ${name} en ${network}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <Icon />
+                    </a>
+                )
+            })
+        }
+    </footer>
 </Section>
+
+<style>
+    footer {
+        color: #777;
+        font-size= 0.65rem;
+        display: flex;
+        gap: 2rem;
+        margin-top: 1rem;
+    }
+
+    footer a {
+        color: #777;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #eee;
+        padding: 4px;
+        height: 32px;
+        width: 32px;
+        border-radius: 6px;
+        transition: all 0.3s ease;
+    }
+
+    footer a:hover {
+        background-color: #eee;
+        border: 1px solid #ddd;
+    }
+</style>
