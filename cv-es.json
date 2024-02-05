@@ -53,63 +53,108 @@
     ],
     "skills": [
         {
-            "name": "Software Development",
+            "name": "Python",
             "level": "Proficient",
             "keywords": [
-            "Python"
+            "Software Development"
             ]
         },
         {
-            "name": "Web Development",
+            "name": "HTML",
             "level": "Beginner",
             "keywords": [
-                "HTML",
-                "CSS",
-                "Astro"
+                "Web Development"
             ]
         },
         {
-            "name": "Machine Learning",
+            "name": "CSS",
             "level": "Beginner",
             "keywords": [
-                "Tensorflow",
-                "Keras",
-                "PyTorch",
-                "Pandas / Numpy",
-                "Scikit-learn",
-                "Matplotlib / Seaborn"
+                "Web Development"
             ]
         },
         {
-            "name": "Frameworks",
-            "level": "Intermediate",
+            "name": "Astro",
+            "level": "Beginner",
             "keywords": [
-                "Semantic Kernel",
-                "Langchain"
+                "Web Development"
             ]
         },
         {
-            "name": "Databases",
-            "level": "Intermediate",
+            "name": "Pandas / Numpy",
+            "level": "Beginner",
             "keywords": [
-                "MySQL",
-                "MongoDB",
-                "SQL Server"
+                "Machine Learning"
+            ] 
+        },
+        {
+            "name": "Matplotlib / Seaborn",
+            "level": "Beginner",
+            "keywords": [
+                "Machine Learning"
             ]
         },
         {
-            "name": "DevOps",
-            "level": "Intermediate",
+            "name": "Scikit-learn",
+            "level": "Beginner",
             "keywords": [
-                "Microsoft Excel",
-                "Azure"
+                "Machine Learning"
             ]
         },
         {
-            "name": "Otros",
+            "name": "Semantic Kernel",
             "level": "Intermediate",
             "keywords": [
-                "SAP"
+                "Framework"
+            ]
+        },
+        {
+            "name": "Langchain",
+            "level": "Intermediate",
+            "keywords": [
+                "Framework"
+            ]
+        },
+        {
+            "name": "MongoDB",
+            "level": "Intermediate",
+            "keywords": [
+                "Databases"
+            ]
+        },
+        {
+            "name": "SQL",
+            "level": "Intermediate",
+            "keywords": [
+                "Databases"
+            ]
+        },
+        {
+            "name": "Power BI",
+            "level": "Intermediate",
+            "keywords": [
+                "Data Visualization"
+            ]
+        },
+        {
+            "name": "Azure",
+            "level": "Intermediate",
+            "keywords": [
+                "Cloud Computing"
+            ]
+        },
+        {
+            "name": "Microsoft Excel",
+            "level": "Intermediate",
+            "keywords": [
+                "Otros"
+            ]
+        },
+        {
+            "name": "SAP",
+            "level": "Intermediate",
+            "keywords": [
+                "Otros"
             ]
         }
     ],
