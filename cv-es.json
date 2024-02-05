@@ -21,30 +21,30 @@
             {
                 "url": "https://github.com/Manuelji022",
                 "username": "Manuelji022",
-                "network": "github"
+                "network": "GitHub"
             }
         ]
     },
     "education": [
         {
-            "endDate": "2017",
-            "startDate": "2020",
+            "endDate": "2020",
+            "startDate": "2017",
             "area": "Project Management",
-            "studyType": "Master en",
+            "studyType": "Master",
             "institution": "Universidad Politécnica de Valencia"
         },
         {
-            "endDate": "2015",
-            "startDate": "2016",
+            "endDate": "2016",
+            "startDate": "2015",
             "area": "Business",
-            "studyType": "Bachelor in",
+            "studyType": "Bachelor",
             "institution": "Univerza V Mariboru, Slovenia"
         },
         {
-            "endDate": "2012",
-            "startDate": "2017",
+            "endDate": "2017",
+            "startDate": "2012",
             "area": "Economía",
-            "studyType": "Grado en",
+            "studyType": "Grado",
             "institution": "Universidad de Castilla La Mancha"
         }
     ],
@@ -159,15 +159,20 @@
     "cursos": [
         {
             "name": "Applied Data Science and Deep Learning",
-            "institution": "MIT",
+            "institution": "Massachusetts Institute of Technology",
             "startDate": "2023-04-01",
-            "endDate": "2023-08-31"
+            "endDate": "2023-08-31",
+            "duration": "5 months",
+            "year": "2023"
         },
         {
             "name": "Machine Learning Bootcamp",
             "institution": "The Bridge",
             "startDate": "2020-11-01",
-            "endDate": "2021-08-31"
+            "endDate": "2021-08-31",
+            "duration": "9 months",
+            "year": "2021"
+
         }
     ],
     "certifications": [
