@@ -3,12 +3,12 @@ import Layout from '@/layouts/Layout.astro'
 
 import About from '@/components/sections/About.astro'
 import Experiencia from '@/components/sections/Experiencia.astro'
+import Educacion from '@/components/sections/Educacion.astro'
 import Hero from '@/components/sections/Hero.astro'
 
 import { basics } from "@cv"
+
 const { name, label } = basics
-
-
 ---
 
 <Layout title={`Portfolio de ${name} - ${label}`}>
@@ -16,6 +16,7 @@ const { name, label } = basics
 		<Hero />
 		<About />
 		<Experiencia />
+		<Educacion />
 	</main>
 </Layout>
 
