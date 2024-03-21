@@ -4,32 +4,43 @@ import Section from "@/components/Section.astro";
 ---
 
 <Section title="Habilidades" />
-    <ul>
-        {
-            skills.map(({ name }) => {
-                return (
-                    <li>{name}</li>
-                )
-            })
-        }
-    </ul>
+    <div class="flex-container">
+        <ul>
+            {
+                skills.map(({ name }) => {
+                    return (
+                        <li>{name}</li>
+                    )
+                })
+            }
+        </ul>
+    </div>
 </Section>
 
 <style>
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
     ul {
-      display: inline-flex;
-      align-items: center;
+      display: flex;
       gap: 0.5rem;
       flex-wrap: wrap;
-      margin: 0 auto 48px;
+      flex-direction: row;
+      width: 100%;
+      padding-left: 10%;
+      padding-right: 5%;
+      margin: 0 auto;
     }
   
     li {
-      align-items: center;
       background: #eee;
       border-radius: 6px;
       color: black;
-      display: flex;
       font-size: 0.8rem;
       font-weight: 500;
       gap: 0.3rem;
